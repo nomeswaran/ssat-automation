@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+<parameter name="appURL" value="https://www.google.co.in/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="Simple Test">
+    <classes>
+      <class name="com.ssatb.tests.GoogleHomePageTest"/>
+    </classes>
+  </test>
+</suite>
